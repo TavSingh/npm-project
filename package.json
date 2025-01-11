@@ -12,16 +12,18 @@
     "name": ""
   },
   "scripts": {
-    "dev": "",
-    "test": ""
+    "start": "npx nodemon main.js",
+    "hi": "npx nodemon hi.js"
   },
   "dependencies": {
     "chalk": "^5.4.1",
     "colors": "^1.4.0",
     "lodash": "^4.17.21",
+    "slugify": "^1.3.1",
     "validator": "^13.12.0"
   },
   "devDependencies": {
-    "@faker-js/faker": "^9.3.0"
+    "@faker-js/faker": "^9.3.0",
+    "nodemon": "^3.1.9"
   }
 }
